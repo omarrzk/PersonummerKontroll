@@ -1,7 +1,6 @@
 using System;
 using Xunit;
-using PersonnummerVerifiering; // Se till att inkludera rätt namespace för PersonnummerVerifiering
-
+using PersonnummerVerifiering;
 namespace PersonnummerVerifiering.Tests
 {
     public class PersonnummerKontrollTests

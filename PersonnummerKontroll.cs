@@ -4,8 +4,6 @@ namespace PersonnummerVerifiering
 {
     public static class PersonnummerKontroll
     {
-        // Andra metoder här...
-
         public static bool ValideraPersonnummer(string personnummer)
         {
             // Kontrollerar så att personnummersinmatningen inte är null
@@ -46,9 +44,6 @@ namespace PersonnummerVerifiering
                     return false;
                 }
             }
-
-            // Ytterligare kontroller för personnummer kan läggas till här.
-
             return true;
         }
 

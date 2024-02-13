@@ -97,3 +97,4 @@ C:\Users\omarr\PersonummerKontroll\obj\Debug\net8.0\refint\PersonummerKontroll.d
 C:\Users\omarr\PersonummerKontroll\obj\Debug\net8.0\PersonummerKontroll.pdb
 C:\Users\omarr\PersonummerKontroll\obj\Debug\net8.0\PersonummerKontroll.genruntimeconfig.cache
 C:\Users\omarr\PersonummerKontroll\obj\Debug\net8.0\ref\PersonummerKontroll.dll
+c:\Users\omarr\PersonummerKontroll\obj\Debug\net8.0\PersonummerKontroll.sourcelink.json
