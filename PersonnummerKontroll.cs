@@ -12,7 +12,7 @@ namespace PersonnummerVerifiering
                 Console.WriteLine("Personnumret är tomt.");
                 return false;
             }
-
+            
             // Kontrollera om personnumret har rätt längd.
             if (personnummer.Replace("-", "").Length != 10)
             {
