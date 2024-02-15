@@ -13,12 +13,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      # Add step to list files in root directory
-      - name: List files in root directory
-        run: ls -l
-
       - name: Login to DockerHub
-        run: echo "${{ secrets.omarrzzk }}" | docker login -u "${{ secrets.DockerPass1 }}" --password-stdin
+        run: echo "${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}" | docker login -u "${{ secrets.DOCKER_HUB_USERNAME }}" --password-stdin
 
       - name: Build Docker image
         run: docker build -t omarrzzk/personnummer-kontroll .
